@@ -1,0 +1,27 @@
+{
+  "name": "202209-w2ch2-miguel-barquilla",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "sass src/sass/style.scss public/css/style.css --watch",
+    "sass": "sass src/sass/style.scss public/css/style.css",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mibarfu/202209-w2ch2-miguel-barquilla.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mibarfu/202209-w2ch2-miguel-barquilla/issues"
+  },
+  "homepage": "https://github.com/Mibarfu/202209-w2ch2-miguel-barquilla#readme",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.55.0",
+    "husky": "^8.0.0"
+  }
+}
